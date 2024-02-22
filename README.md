@@ -16,6 +16,9 @@ Further details of the six transition datasets could be found below file path: '
 # D. MA-BMCQL Structure
 The architecture of the MA-BMCQL Framework can be better understood through Figure below.
 
+![MA-BMCQL](/Overview of MA-BMCQL Frameworks.png)
+
+
 You may check the details by reading through the lines or our paper draft.
 
 # E. Training Simulation Framework
