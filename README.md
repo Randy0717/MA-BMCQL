@@ -28,7 +28,9 @@ Also you may read the past training record by running read.py in the recording f
 However, before running, you need to first keep your local OSRM server activated. Also, you may need to change the input file path according to your own computer's settings.
 
 # F. Validation & Benchmarks
-You may also directly check the validation results by referring to the plots and figures under file 'Comparisons'. Our comprehensive experiments and validations across different weekdays reveal that MA-BMCQL dramatically accelerates policy training—reducing time requirements by over 20-fold—while also delivering superior performance compared to benchmark reinforcement learning frameworks like ILPAC and ILPDDQN in ride-sharing under all tested offline training scenarios by cutting down the tremendous overestimation due to out of distribution data sampling and multi-agent interactions.
+You may also directly check the validation results by referring to the plots and figures under file 'Comparisons'. Our comprehensive experiments and validations across different weekdays reveal that MA-BMCQL dramatically accelerates policy training—reducing time requirements by over 20-fold—while also delivering superior performance compared to benchmark reinforcement learning frameworks like ILPAC and ILPDDQN in ride-sharing under all tested offline training scenarios by cutting down the tremendous overestimation due to out of distribution data sampling and multi-agent interactions as below.
+
+![MA-BMCQL Framework](compare_1week_new.png "Validation")
 
 You may also load some of our pretrained network parameters under 'Save'. The codes will print out the total rewards at the end of the episode.
 
