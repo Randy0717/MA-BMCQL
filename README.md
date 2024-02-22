@@ -21,7 +21,9 @@ The architecture of the MA-BMCQL Framework can be better understood through Figu
 You may check the details by reading through the lines or our paper draft.
 
 # E. Training Simulation Framework
-After preparing the stuffs above, you may run the simulation framework in simulator_xxx.py under each file like 'ILPCQL_20240120_CP_offline' for example, which use parallel computing and will save neural network parameters in Save directory, and save training plot in Training plot directory during the training process. 
+After preparing the stuffs above, you may run the simulation framework in simulator_xxx.py under each file like 'ILPCQL_20240120_CP_offline' for example, which use parallel computing and will save neural network parameters in Save directory, and save training plot in Training plot directory during the training process. Specific training comparisons of our frameworks vs benchmarks like ILPDDQN and ILPAC are given below:
+
+![MA-BMCQL Framework](Compare_new.png "Training")
 
 Also you may read the past training record by running read.py in the recording file. Moreover, you may change some hyperparameters and the save path. Some of our training parameters and networks are also given.
 
