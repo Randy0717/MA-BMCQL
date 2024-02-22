@@ -1,5 +1,5 @@
 # A.Demand Preparations
-The trip requests data has already been prepared for you in csv/demand_new.csv, to run this program, u need to download csv directory for demand_new.csv and zone_table.csv from https://hkustconnect-my.sharepoint.com/:f:/g/personal/yhucm_connect_ust_hk/Eiounx6mHOJGinmOgtjt5l0Bfdt0uss9fkCCs6Fn2BKuRQ?e=0Wwvqz
+The trip requests data has already been prepared for you in csv/demand_new.csv, to run this program, u need to unzip csv directory for demand_new.csv and zone_table.csv. 
 
 The environment for this study is based on the public dataset of taxi trips provided by Manhattan, New York City. We extracted 30 minutes' worth of trip order requirements during the peak hours (specifically from 8:00 am to 10:00 am) in May 2016, and divided Manhattan into 57 zones. This zoning was informed by the distribution of orders and a resolution of 800m x 800m was used. The visualization is shown in Figure Demand Visualization.png
 
